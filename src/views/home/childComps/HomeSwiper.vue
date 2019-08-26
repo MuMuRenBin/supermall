@@ -12,11 +12,6 @@
 import {Swiper,SwiperItem} from 'components/common/swiper';
 export default {
     name:'HomeSwiper',
-    data() {
-        return {
-            
-        }
-    },
     components:{
         Swiper,SwiperItem,
     },
