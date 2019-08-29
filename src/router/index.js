@@ -12,5 +12,6 @@ export default new Router({
     {path:'/category',component:()=>import('../views/category/Category.vue')},
     {path:'/cart',component:()=>import('../views/cart/Cart.vue')},
     {path:'/profile',component:()=>import('../views/profile/Profile.vue')},
+    {path:'/detail/:iid',component:()=>import('../views/detail/Detail.vue')},
   ]
 })
